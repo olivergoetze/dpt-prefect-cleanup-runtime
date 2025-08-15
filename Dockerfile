@@ -1,4 +1,4 @@
-FROM prefecthq/prefect:3.4.1-python3.11
+FROM prefecthq/prefect:3.4.13-python3.12
 
 # extra pip packages for Dask on Kubernetes and S3
 RUN pip install s3fs prefect-dask
