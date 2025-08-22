@@ -8,10 +8,11 @@ RUN pip install python-dotenv typesense
 
 RUN mkdir /opt/dptweb_padding_dir
 
+RUN mkdir /.prefect
+
 
 # für OpenShift-Berechtigungen einkommentieren:
 
-#RUN mkdir /.prefect
 #RUN chgrp -R 0 /.prefect && \
 #         chmod -R g=u /.prefect
 #
